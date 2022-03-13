@@ -16,7 +16,7 @@ npm start
 
 # Screens
 ## Screen 1
-<img src="https://github.com/alijawad1511/eCinema-REACTJS/blob/master/src/images/sample3.jpg" width="500" />
+<img src="https://github.com/alijawad1511/eCinema-REACTJS/blob/master/src/images/sample3.jpg" width="800" />
 
 # App Info
 
