@@ -4,8 +4,6 @@ export const MovieContext = createContext();
 
 export const MovieProvider = (props) => {
 
-    // const URL = `https://api.themoviedb.org/3/search/movie?api_key=cf3b28bb6fe88384dd6067bfc958876f&language=en-US&page=1&include_adult=false&query=cinderella`;
-
     const [movies,setMovies] = useState([]);
     const [watched,setWatched] = useState([]);
     const [watchList,setWatchList] = useState([]);
