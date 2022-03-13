@@ -15,8 +15,14 @@ npm start
 ```
 
 # Screens
-## Screen 1
+### Screen 1
 <img src="https://github.com/alijawad1511/eCinema-REACTJS/blob/master/src/images/sample3.jpg" width="800" />
+
+### Screen 2
+<img src="https://github.com/alijawad1511/eCinema-REACTJS/blob/master/src/images/sample1.jpg" width="800" />
+
+### Screen 3
+<img src="https://github.com/alijawad1511/eCinema-REACTJS/blob/master/src/images/sample2.jpg" width="800" />
 
 # App Info
 
