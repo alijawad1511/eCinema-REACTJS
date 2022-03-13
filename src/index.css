@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
 .navbar {
   height: 70px;
 }
@@ -39,7 +45,7 @@
 
 header {
   width: 100%;
-  height: 40vh;
+  height: 150px;
   background: rgb(36, 8, 0);
   background: linear-gradient(
     137deg,
@@ -65,4 +71,21 @@ header {
 
 .movies_list .result_card img {
   height: 120px;
+}
+
+/* .upcomming_movies .container,
+.latest_movies .container,
+.top_rated .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+} */
+
+.movie_slider {
+  width: 100%;
+  height: 400px;
+}
+
+.slide img {
+  height: 400px;
 }
