@@ -7,7 +7,7 @@ const Movie = ({ movie }) => {
     <div className="card shadow mr-4">
       <img
         src={`${IMAGE_URL}${movie.poster_path}`}
-        alt="Movie Image"
+        alt="Movie Poster"
         className="card-img-top w-100"
         height="270"
       />

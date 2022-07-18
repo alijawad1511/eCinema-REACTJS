@@ -1,5 +1,4 @@
-import React, { useEffect, useContext } from "react";
-import { MovieContext } from "../contexts/MovieContext";
+import React from "react";
 import img1 from "../images/img1.jpg";
 import img2 from "../images/img2.jpg";
 import img3 from "../images/img3.jpg";
@@ -11,22 +10,6 @@ import img8 from "../images/img8.jpg";
 import img9 from "../images/img9.jpg";
 
 const Home = () => {
-  const IMAGE_URL = "https://image.tmdb.org/t/p/w200";
-
-  const {
-    fetchLatestMovies,
-    fetchTopRatedMovies,
-    fetchUpcommingMovies,
-    latestMovies,
-    upcommingMovies,
-    topRatedMovies,
-  } = useContext(MovieContext);
-
-  useEffect(() => {
-    // fetchLatestMovies();
-    // fetchTopRatedMovies();
-    // fetchUpcommingMovies();
-  }, []);
 
   return (
     <>
@@ -49,19 +32,19 @@ const Home = () => {
                 >
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img src={img1} className="d-block w-75 mx-auto" />
+                      <img src={img1} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Spiderman</h2>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src={img2} className="d-block w-75 mx-auto" />
+                      <img src={img2} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Spiderman 2</h2>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src={img3} className="d-block w-75 mx-auto" />
+                      <img src={img3} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Spiderman 3</h2>
                       </div>
@@ -100,19 +83,19 @@ const Home = () => {
                 >
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img src={img4} className="d-block w-75 mx-auto" />
+                      <img src={img4} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Avengers Endgame</h2>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src={img5} className="d-block w-75 mx-auto" />
+                      <img src={img5} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Captain Americal : Civil War</h2>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src={img6} className="d-block w-75 mx-auto" />
+                      <img src={img6} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Captain Americal</h2>
                       </div>
@@ -151,19 +134,19 @@ const Home = () => {
                 >
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img src={img7} className="d-block w-75 mx-auto" />
+                      <img src={img7} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>How to Train your Dragon</h2>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src={img8} className="d-block w-75 mx-auto" />
+                      <img src={img8} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Kungfu Panda</h2>
                       </div>
                     </div>
                     <div className="carousel-item">
-                      <img src={img9} className="d-block w-75 mx-auto" />
+                      <img src={img9} alt="Movie" className="d-block w-75 mx-auto" />
                       <div class="carousel-caption d-none d-md-block">
                         <h2>Ben 10</h2>
                       </div>

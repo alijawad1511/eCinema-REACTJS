@@ -51,7 +51,6 @@ export const MovieProvider = (props) => {
     }
 
     const fetchUpcommingMovies = async () => {
-        const UPCOMMING_MOVIE_URL = `/movie/upcoming`;
         const { data: { results } } = await axios(`https://api.themoviedb.org/3/movie/upcoming?api_key=cf3b28bb6fe88384dd6067bfc958876f&language=en-US&page=1`);
         setUpcommingMovies(results);
         console.log(results);

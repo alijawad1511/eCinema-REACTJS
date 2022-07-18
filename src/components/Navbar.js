@@ -16,16 +16,16 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                        <li className={`nav-item ${location.pathname == '/' ? 'active' : ''}`}>
+                        <li className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
                             <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                         </li>
-                        <li className={`nav-item ${location.pathname == '/movies' ? 'active' : ''}`}>
+                        <li className={`nav-item ${location.pathname === '/movies' ? 'active' : ''}`}>
                             <Link className="nav-link" to="/movies">Movies</Link>
                         </li>
-                        <li className={`nav-item ${location.pathname == '/watchlist' ? 'active' : ''}`}>
+                        <li className={`nav-item ${location.pathname === '/watchlist' ? 'active' : ''}`}>
                             <Link className="nav-link" to="/watchlist">Watchlist</Link>
                         </li>
-                        <li className={`nav-item ${location.pathname == '/watched' ? 'active' : ''}`}>
+                        <li className={`nav-item ${location.pathname === '/watched' ? 'active' : ''}`}>
                             <Link className="nav-link" to="/watched">Watched</Link>
                         </li>
                     </ul>
