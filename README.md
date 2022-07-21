@@ -7,7 +7,7 @@
 This is a simple React app built to learn how to use external API to get data and display on the ReactJS App.
 You can search movies, can add movies to watchlist to watch later and can add to watched list you have watched.
 
-# THIS APPLICATION IS HOSTED ON GITHUB. VISIT THE LINK BELOW TO SEE THE PREVIEW
+## THIS APPLICATION IS HOSTED ON GITHUB. VISIT THE LINK BELOW TO SEE THE PREVIEW
 
 ## 🌐 Link
 
