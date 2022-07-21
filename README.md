@@ -1,5 +1,7 @@
 # eCinema
 
+<img src="https://github.com/alijawad1511/eCinema-REACTJS/blob/master/src/images/sample1.jpg" width="800" />
+
 #### If you like my work, please start following this project's author [Syed Ali Jawad](https://github.com/alijawad1511) and don't hesitate to give star⭐ to my project to show your ❤️❤️ and support
 
 # THIS APPLICATION IS HOSTED ON GITHUB. VISIT THE LINK BELOW TO SEE THE PREVIEW
@@ -22,7 +24,7 @@ https://alijawad1511.github.io/eCinema-ReactJS/
 This is a simple project built to learn how to use API to get data and display on the ReactJS Frontend.
 You can search movies, can add movies to watchlist to watch later and can add to watched list you have watched.
 
-# 📝 Quick Use
+## 📝 Quick Use
 
 ```bash
 # Install Dependencies
